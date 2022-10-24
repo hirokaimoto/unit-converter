@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+
+}
+
+body {
+    width: 550px;
+    height: 730px;
+}
+
+.top h1 {
+    padding-top: 30px;
+    font-weight: 800;
+}
+
+.top {
+    background-color: #6943FF;
+    color: white;
+    width: 550px;
+    height: 285px;
+}
+
+#convert-btn {
+    color: #3D3D3D;
+    background-color: white;
+    display: block;
+    width: 117px;
+    height: 42px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    
+}
+
+#input-el {
+    background-color: #6943FF;
+    box-sizing: border-box;
+    width: 120px;
+    height: 85px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.corpo {
+    background-color: #1F2937;
+    padding: 35px 25px 10px 25px;
+    
+}
+
+.corpo div {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 109px;
+    background-color: #273549;
+    margin-bottom: 20px;
+    
+}
+
+.corpo h2 {
+    
+    margin: auto;
+    color: #CCC1FF;
+    font-weight: 600;
+}
+
+.corpo p {
+    margin: auto;
+    color: white;
+    font-weight: 400;
+}
+
+footer {
+    font-weight: 500;
+    font-size: 10px;
+    background-color: #6943FF;
+    color: white;
+    
+}
